@@ -1,0 +1,9 @@
+
+version: 2
+sources:
+    - name: datafeed_shared_schema
+      database: "{{('sales')}}"
+      schema: raw_schema
+      tables:
+        - name: raw_customers_data
+        - name: raw_orders
